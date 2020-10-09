@@ -169,6 +169,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="Расположение финиша:" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="Направление:" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="Возврат на старт" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="Юго-Запад" />
 		<text name="COURSEPLAY_CORNER_2" 									text="Северо-Запад" />
 		<text name="COURSEPLAY_CORNER_3" 									text="Северо-Восток" />

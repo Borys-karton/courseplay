@@ -549,6 +549,23 @@ function FieldworkAIDriver:onEndCourse()
 	end
 end
 
+--Check if we need to release the driver completely
+function FieldworkAIDriver:onEndCourseFinished()
+	if self.vehicle.cp.settings.returnToFirstPoint:isReleaseDriverActive() then
+		self:debug("returnToFirstPoint => Stopped Driver completely")
+		self.shouldBeReleasedOnceEntered = true
+	end
+	AIDriver.onEndCourseFinished(self)
+end
+
+--release the driver completely once entered
+function FieldworkAIDriver:shouldDriverBeReleased()
+	if self.vehicle:getIsEntered() and self.shouldBeReleasedOnceEntered then
+		self.shouldBeReleasedOnceEntered = nil
+		courseplay:stop(self.vehicle); --AIDriver:dismiss() is not enough as courseplay:stop() still has leftover legancy code that needs to be called	
+	end
+end
+
 function FieldworkAIDriver:onWaypointPassed(ix)
 	self:debug('onWaypointPassed %d', ix)
 	if self.state == self.states.ON_FIELDWORK_COURSE then
@@ -632,7 +649,7 @@ end
 --- Should we return to the first point of the course after we are done?
 function FieldworkAIDriver:shouldReturnToFirstPoint()
 	-- TODO: implement and check setting in course or HUD
-	if self.vehicle.cp.settings.returnToFirstPoint:is(true) then
+	if self.vehicle.cp.settings.returnToFirstPoint:isReturnToStartActive() then
 		self:debug('Returning to first point.')
 		return true
 	else
@@ -1354,7 +1371,7 @@ end
 
 --- Don't pay worker double when AutoDrive is driving
 function FieldworkAIDriver:shouldPayWages()
-	return self.state ~= self.states.ON_UNLOAD_OR_REFILL_WITH_AUTODRIVE
+	return self.state ~= self.states.ON_UNLOAD_OR_REFILL_WITH_AUTODRIVE and self.state ~= self.states.STOPPED
 end
 
 function FieldworkAIDriver:onBlocked()

@@ -164,6 +164,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="Eind locatie" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="Start richting" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="Keer terug naar start" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="Zuid-West" />
 		<text name="COURSEPLAY_CORNER_2" 									text="Noord-West" />
 		<text name="COURSEPLAY_CORNER_3" 									text="Noord-Oost" />

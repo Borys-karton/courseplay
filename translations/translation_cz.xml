@@ -168,6 +168,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="Poslední pozice" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="Směr trasy:" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="Návrat na první bod:" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="jihozápad" />
 		<text name="COURSEPLAY_CORNER_2" 									text="severozápad" />
 		<text name="COURSEPLAY_CORNER_3" 									text="severovýchod" />

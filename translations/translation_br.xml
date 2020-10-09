@@ -168,6 +168,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="Local final" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="Iniciar na direção" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="Retornar ao primeiro ponto" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="Sudoeste" />
 		<text name="COURSEPLAY_CORNER_2" 									text="Noroeste" />
 		<text name="COURSEPLAY_CORNER_3" 									text="Nordeste" />

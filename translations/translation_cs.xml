@@ -168,6 +168,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="结束位置" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="车辆行驶的方向" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="返回到起始点" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="西南方向" />
 		<text name="COURSEPLAY_CORNER_2" 									text="西北方向" />
 		<text name="COURSEPLAY_CORNER_3" 									text="东北方向" />

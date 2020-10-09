@@ -168,6 +168,8 @@
     	<text name="COURSEPLAY_ENDING_LOCATION" 						 	text="Lokacja końcowa:" />
 		<text name="COURSEPLAY_STARTING_DIRECTION"						 	text="Kierunek startowy:" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT"					 	text="Powrót do 1 punktu:" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1"								 	text="Południowy-Zachód" />
 		<text name="COURSEPLAY_CORNER_2"								 	text="Północny-Zachód" />
 		<text name="COURSEPLAY_CORNER_3"								 	text="Północny-Wschód" />

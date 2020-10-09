@@ -164,6 +164,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="Végpont" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="Művelés kezdő iránya:" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="Vissza az első pontra" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="Dél/Nyugat" />
 		<text name="COURSEPLAY_CORNER_2" 									text="Észak/Nyugat" />
 		<text name="COURSEPLAY_CORNER_3" 									text="Észak/Kelet" />

@@ -168,6 +168,8 @@
 		<text name="COURSEPLAY_ENDING_LOCATION" 							text="Ending location" /> <!-- TODO: TRANSLATE -->
 		<text name="COURSEPLAY_STARTING_DIRECTION" 							text="Začetna smer" />
 		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT" 						text="Vrni se na začetno točko" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RELEASE_DRIVER"		text="deactivated and release CP Driver" />
+		<text name="COURSEPLAY_RETURN_TO_FIRST_POINT_RETURN_TO_START_AND_RELEASE_DRIVER"	text="activated and release CP Driver" />
 		<text name="COURSEPLAY_CORNER_1" 									text="jugozahod" />
 		<text name="COURSEPLAY_CORNER_2" 									text="severozahod" />
 		<text name="COURSEPLAY_CORNER_3" 									text="severovzhod" />
